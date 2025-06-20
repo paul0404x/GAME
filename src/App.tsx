@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Play, Volume2, VolumeX, Settings, Save, Load } from 'lucide-react';
+import { Play, Volume2, VolumeX, Settings, Save, Loader as Load } from 'lucide-react';
 
 interface Character {
   id: string;
